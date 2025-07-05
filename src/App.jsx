@@ -13,6 +13,7 @@ function App() {
       <div>
         <img src={ajax} alt="" loading='lazy'/>
         <a href="https://vite.dev" target="_blank">
+        kimjinseok test
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
