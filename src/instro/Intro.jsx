@@ -1,7 +1,7 @@
 import "./intro.scss";
 import FramerMotion from "../utills/FramerMotion";
 import Container from "../component/Container";
-import gitHub from "../assets/gitHub.webp";
+import gitHub from "../assets/github.webp";
 
 const frontEndStyle = {
   initial: {
