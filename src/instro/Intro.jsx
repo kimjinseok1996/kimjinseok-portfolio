@@ -1,7 +1,8 @@
 import "./intro.scss";
 import FramerMotion from "../utills/FramerMotion";
 import Container from "../component/Container";
-import gitHub from "../assets/github.webp";
+import kimjinseok from "../assets/kimjinseok.jpg?format=webp&quality=15";
+import gitHub from "../assets/github.webp?format=webp&quality=15";
 
 const frontEndStyle = {
   initial: {
@@ -123,7 +124,10 @@ function Intro() {
         </div>
 
         <FramerMotion motions={boxStyle} className="introduce-div">
-          <div className="profile-img"></div>
+          <div
+            className="profile-img"
+            style={{ backgroundImage: `url(${kimjinseok})` }}
+          ></div>
           <article>
             <p>
               안녕하세요. <br />
