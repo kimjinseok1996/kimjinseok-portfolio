@@ -33,3 +33,30 @@ section {
     margin-bottom: 32px;
   }
 }
+
+.stack-icons {
+  width: 100%;
+  overflow: hidden;
+  & > div {
+    float: left;
+
+    .stack-icon {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      border: 1px solid #f1f2f3;
+      background-color: #fff;
+      overflow-y: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 4px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .tool-top {
+      overflow-y: hidden;
+    }
+  }
+}

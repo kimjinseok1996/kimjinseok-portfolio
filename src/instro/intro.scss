@@ -1,5 +1,5 @@
 #intro-section {
-  padding: 124px 0;
+  padding: 102px 0;
   background-color: #333;
 
   .intro-line {
@@ -62,6 +62,7 @@
       p {
         text-align: left;
         line-height: 20px;
+        overflow-y: hidden;
 
         &:nth-child(1) {
           margin-bottom: 18px;
