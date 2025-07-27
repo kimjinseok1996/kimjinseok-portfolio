@@ -1,0 +1,57 @@
+#skills-section {
+  .skills-div {
+    .stack-box {
+      display: flex;
+      align-items: start;
+      margin-bottom: 18px;
+
+      h5 {
+        font-size: 18px;
+        font-weight: 300;
+        width: 20%;
+        text-align: left;
+        margin-top: 24px;
+      }
+
+      .stack-icons {
+        width: 100%;
+        overflow: hidden;
+        & > div {
+          float: left;
+
+          .stack-icon {
+            width: 68px;
+            height: 68px;
+            border-radius: 50%;
+            border: 1px solid #f1f2f3;
+            background-color: #fff;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 4px;
+            background-repeat: no-repeat;
+            background-position: center center;
+          }
+
+          .tool-top {
+            overflow-y: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .skills-div {
+      .stack-box {
+        flex-direction: column;
+        h5 {
+          width: 100%;
+          margin-top: 8px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

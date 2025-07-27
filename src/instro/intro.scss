@@ -1,0 +1,93 @@
+#intro-section {
+  padding: 124px 0;
+  background-color: #333;
+
+  .intro-line {
+    margin-bottom: 32px;
+
+    & > .intro-line-text {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      padding-bottom: 10px;
+
+      h2 {
+        color: #999;
+        font-size: 24px;
+        font-weight: 200;
+      }
+
+      .initial-div {
+        display: flex;
+        align-items: center;
+
+        p {
+          color: #fff;
+          font-size: 18px;
+          padding: 0 6px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .line {
+      height: 1px;
+      background-color: #fff;
+    }
+  }
+
+  .introduce-div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    .profile-img {
+      overflow: hidden;
+      width: 152px;
+      height: 152px;
+      border-radius: 50%;
+      background-image: url("../assets/kimjinseok.jpg");
+      background-size: cover;
+      margin-right: 16px;
+      pointer-events: none;
+    }
+
+    article {
+      width: 68%;
+      padding: 32px;
+      border-radius: 4px;
+      background-color: #fff;
+
+      p {
+        text-align: left;
+
+        &:nth-child(1) {
+          margin-bottom: 18px;
+
+          span {
+            font-weight: 600;
+          }
+        }
+
+        a {
+          color: #666;
+
+          img {
+            width: 24px;
+            margin-right: 6px;
+            display: inline-block;
+            transform: translateY(4px);
+          }
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      article {
+        width: 100%;
+        margin-top: 16px;
+      }
+    }
+  }
+}
