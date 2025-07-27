@@ -34,6 +34,13 @@ section {
   }
 }
 
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .stack-icons {
   width: 100%;
   overflow: hidden;
@@ -55,7 +62,7 @@ section {
       background-position: center center;
     }
 
-    .tool-top {
+    .tool-tip {
       overflow-y: hidden;
     }
   }

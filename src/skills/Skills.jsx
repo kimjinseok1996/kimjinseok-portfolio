@@ -19,27 +19,21 @@ const boxStyle = {
 };
 
 const stackArr = [
-  { Languages: ["javascript"] },
+  { Language: ["javascript"] },
   {
-    Framework: [
-      "react",
-      "vue",
-      "zustand",
-      "react-query",
-      "nodejs",
-      "jquery",
-      "ajax",
-      "axios",
-    ],
+    Framework: ["react", "vue", "nodejs"],
+  },
+  {
+    Library: ["zustand", "reactquery", "jquery", "axios", "bootstrap"],
   },
   {
     MarkUp: ["html", "css", "sass"],
   },
   {
-    Tools: ["npm", "nvm", "git", "jira", "slack"],
+    Tools: ["npm", "nvm", "git", "jira", "slack", "photoshop"],
   },
   {
-    Experiences: ["typescript", "mysql", "nginx", "gcp", "docker", "photoshop"],
+    Secondary: ["typescript", "tailwind", "mysql", "nginx", "gcp", "docker"],
   },
 ];
 
@@ -47,16 +41,16 @@ const SkillsBox = () => {
   return stackArr.map((value, index) => {
     const key = Object.keys(value)[0];
     return (
-      <div key={index} className="stack-box">
+      <FramerMotion key={index} className="stack-box" motions={boxStyle}>
         <h5>{key}</h5>
         <div className="stack-icons">
           {value[key].map((item, idx) => (
             <div key={idx}>
-              <StackIcon id={item} img={item} />
+              <StackIcon id={item} />
             </div>
           ))}
         </div>
-      </div>
+      </FramerMotion>
     );
   });
 };
@@ -66,9 +60,9 @@ function Skills() {
     <section id="skills-section">
       <h5 className="section-title">Skills</h5>
       <Container>
-        <FramerMotion className="skills-div" motions={boxStyle}>
+        <div className="skills-div">
           <SkillsBox />
-        </FramerMotion>
+        </div>
       </Container>
     </section>
   );
