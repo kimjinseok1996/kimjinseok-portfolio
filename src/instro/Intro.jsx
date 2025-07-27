@@ -25,9 +25,12 @@ const initialStyle = {
     y: 20,
   },
   animate: {
-    ease: "easeInOut",
     opacity: 1,
     y: 0,
+  },
+  transition: {
+    ease: "easeInOut",
+    duration: 0.6,
   },
 };
 
@@ -138,6 +141,12 @@ function Intro() {
                 <img src={gitHub} alt="git-hub" />
                 kimjinseok1996
               </a>
+            </p>
+          </article>
+          <article>
+            <h5>Certification</h5>
+            <p>
+              정보처리기사 <br /> 웹디자인기능사 <br /> GTQ 1급
             </p>
           </article>
         </FramerMotion>

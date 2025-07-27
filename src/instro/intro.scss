@@ -14,7 +14,6 @@
       h2 {
         color: #999;
         font-size: 24px;
-        font-weight: 200;
       }
 
       .initial-div {
@@ -25,7 +24,6 @@
           color: #fff;
           font-size: 18px;
           padding: 0 6px;
-          font-weight: 200;
         }
       }
     }
@@ -38,7 +36,6 @@
 
   .introduce-div {
     display: flex;
-    align-items: start;
     justify-content: space-between;
 
     .profile-img {
@@ -52,13 +49,19 @@
     }
 
     article {
-      width: 68%;
+      width: 28%;
       padding: 32px;
       border-radius: 4px;
       background-color: #fff;
 
+      h5 {
+        text-align: left;
+        margin-bottom: 8px;
+      }
+
       p {
         text-align: left;
+        line-height: 20px;
 
         &:nth-child(1) {
           margin-bottom: 18px;
