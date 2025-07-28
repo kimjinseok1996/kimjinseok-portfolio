@@ -1,5 +1,5 @@
-#skills-section {
-  .skills-div {
+#stack-section {
+  .stack-div {
     .stack-box {
       display: flex;
       align-items: start;
@@ -15,7 +15,7 @@
   }
 
   @media (max-width: 768px) {
-    .skills-div {
+    .stack-div {
       .stack-box {
         flex-direction: column;
         h5 {

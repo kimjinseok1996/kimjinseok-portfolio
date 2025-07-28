@@ -1,4 +1,4 @@
-import "./skills.scss";
+import "./stack.scss";
 import Container from "../component/Container";
 import FramerMotion from "../utills/FramerMotion";
 import StackIcon from "../component/StackIcon";
@@ -24,20 +24,31 @@ const stackArr = [
     Framework: ["react", "vue", "nodejs"],
   },
   {
-    Library: ["zustand", "reactquery", "jquery", "axios", "bootstrap"],
+    Library: ["zustand", "reactquery", "jquery", "axios"],
   },
   {
-    MarkUp: ["html", "css", "sass"],
+    MarkUp: ["html", "css", "sass", "bootstrap"],
   },
   {
-    Tools: ["npm", "nvm", "git", "jira", "slack", "photoshop"],
+    Build: ["vite", "webpack"],
   },
   {
-    Secondary: ["typescript", "tailwind", "mysql", "nginx", "gcp", "docker"],
+    Tools: ["npm", "nvm", "git", "jira", "slack", "photoshop", "figma"],
+  },
+  {
+    Secondary: [
+      "next",
+      "typescript",
+      "tailwind",
+      "mysql",
+      "nginx",
+      "gcp",
+      "docker",
+    ],
   },
 ];
 
-const SkillsBox = () => {
+const StackBox = () => {
   return stackArr.map((value, index) => {
     const key = Object.keys(value)[0];
     return (
@@ -55,17 +66,17 @@ const SkillsBox = () => {
   });
 };
 
-function Skills() {
+function Stack() {
   return (
-    <section id="skills-section">
-      <h5 className="section-title">Skills</h5>
+    <section id="stack-section">
+      <h5 className="section-title">Stack</h5>
       <Container>
-        <div className="skills-div">
-          <SkillsBox />
+        <div className="stack-div">
+          <StackBox />
         </div>
       </Container>
     </section>
   );
 }
 
-export default Skills;
+export default Stack;

@@ -1,0 +1,40 @@
+.react-responsive-modal-modal {
+  max-width: 864px;
+
+  h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+
+  img {
+    width: 382px;
+    border: 1px solid #ccc;
+  }
+
+  table {
+    border: 1px solid #eaeaea;
+    border-collapse: collapse;
+    margin-top: 24px;
+    th,
+    td {
+      text-align: left;
+      border: 1px solid #eaeaea;
+      padding: 14px 16px;
+    }
+    th {
+      width: 72px;
+      text-align: center;
+    }
+
+    .stack-icon {
+      transform: scale(0.8);
+      margin: 0;
+    }
+
+    .modal-text {
+      line-height: 24px;
+    }
+  }
+}
