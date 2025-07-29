@@ -104,6 +104,61 @@ export const historyData = [
   {
     date: "2023. 05.",
     company: "씨엠엔피",
-    projects: [],
+    projects: [
+      {
+        title: "씨엠엔피 홈페이지",
+        description: "회사 소개 페이지",
+        period: "",
+        text: `- 회사 소개 페이지 레이아웃 설계, 퍼블리싱 작업 <br>
+              - Scroll 메소드와 CSS 에니메이션으로 인터렉티브한 동작 구현 <br>
+              - Google Cloud Platform 에서 Cloude Build 기능을 활용하여 CI/CD 구축 <br>
+              - Docker를 사용하여 배포 환경 구성 <br>`,
+        contribution: 100,
+        img: "",
+        stack: [
+          "html",
+          "css",
+          "javascript",
+          "jquery",
+          "bootstrap",
+          "php",
+          "docker",
+          "gcp",
+        ],
+      },
+      {
+        title: "케어플러스",
+        description: "대리 기사 프로그램 멤버쉽 가입 페이지",
+        period: "",
+        text: `- KM과 Figma로 협업하여 렌딩페이지 작업 <br>
+              - vuex로 상태관리, mixin으로 공통 함수 관리 <br>
+              - JWT를 Android에서 전달 받아 인증데이터 관리 <br>
+              - Axios로 API통신 <br>
+              - dotenv로 환경변수 설정 <br>
+              - webpack override로 빌드 설정(compression-webpack-plugin, terser-webpack-plugin, gzip 등) <br>
+              - Android 브릿지함수로 앱와 통신 <br>
+              - 코드 스플리팅, Lazy Loading을 사용하여 페이지별 코드 분리`,
+        contribution: 100,
+        img: "",
+        stack: ["vue", "axios", "bootstrap", "webpack", "figma"],
+      },
+      {
+        title: "콜마너 기사용 앱",
+        description: "대리 기사 프로그램 일부 웹뷰페이지",
+        period: "",
+        text: `- vuex로 상태관리, mixin으로 공통 함수 관리 <br>
+              - JWT를 Android에서 전달 받아 인증데이터 관리 <br>
+              - Axios로 API통신 <br>
+              - dotenv로 환경변수 설정 <br>
+              - webpack override로 빌드 설정(compression-webpack-plugin, terser-webpack-plugin, gzip 등) <br>
+              - Android 브릿지함수로 앱와 통신 <br>
+              - SIMG와 보험가입관련 협업(보험 데이터를 SIMG측 페이지로 전달, 보험 가입완료 응답값으로 화면처리 ) <br>
+              - Kakao Map API를 사용하여 지도 기능 구현, 좌표값 관리(현장콜) <br>
+              - 코드 스플리팅, Lazy Loading을 사용하여 페이지별 코드 분리`,
+        contribution: 90,
+        img: "",
+        stack: ["vue", "axios", "bootstrap", "webpack", "figma"],
+      },
+    ],
   },
 ];

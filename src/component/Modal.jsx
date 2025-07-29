@@ -3,6 +3,7 @@ import "../styles/modal.scss";
 import { Modal } from "react-responsive-modal";
 import useModalStore from "../store/modalStore";
 import StackIcon from "./StackIcon";
+import { ImageWithSuspense } from "./ImageWithSuspense";
 
 import cow from "../assets/works/cow.jpg?format=webp&quality=15";
 import abys from "../assets/works/abys.jpg?format=webp&quality=15";
@@ -31,10 +32,9 @@ function ModalComponent() {
     <Modal open={isOpen} onClose={closeModal} center>
       <h2>{project?.title}</h2>
       {project?.img && (
-        <img
+        <ImageWithSuspense
           src={worksImage[project?.img]}
           alt={project?.title}
-          loading="lazy"
         />
       )}
       <table>
@@ -43,10 +43,12 @@ function ModalComponent() {
             <th>설명</th>
             <td>{project?.description}</td>
           </tr>
-          <tr>
-            <th>기간</th>
-            <td>{project?.period}</td>
-          </tr>
+          {project?.period && (
+            <tr>
+              <th>기간</th>
+              <td>{project?.period}</td>
+            </tr>
+          )}
           <tr>
             <th>내용</th>
             <td
