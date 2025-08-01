@@ -36,6 +36,19 @@
 
     .modal-text {
       line-height: 24px;
+
+      ul {
+        list-style-position: inside;
+        li {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    * {
+      font-size: 14px;
     }
   }
 }
