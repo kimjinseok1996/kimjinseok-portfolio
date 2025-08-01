@@ -262,6 +262,7 @@ export const historyData = [
                 <li>React-date-range로 날짜 범위 선택 적용</li>
                 <li>React-toastify로 일반 알럿대신 토스트메세지 적용으로 UX 개선</li>
                 <li>React Query로 콜 현황, 통계 데이터 등 서버데이터 상태관리</li>
+                <li>Zustand로 바텀시트, 체크박스 등 프론트데이터 상태관리</li>
                 <li>React-multi-carousel로 결제카드 선택 슬라이더 구현</li>
                 <li>Dnd-kit모듈로 콜 목록 칼럼 드래그 앤 드롭 순서변경 기능 구현</li>
                 <li>React-Kakao-Maps-Sdk로 위치 선택 기능 구현</li>
