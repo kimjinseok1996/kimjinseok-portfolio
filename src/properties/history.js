@@ -84,7 +84,7 @@ export const historyData = [
                 <li>신청 장비에 따라 견적서 화면 개발, 비용 계산</li>
                 <li>각 회원이 신청한 장비 리스트 관리자화면 개발, 통계화면 개발</li>
               </ul>`,
-        contribution: 1000,
+        contribution: 100,
         img: "abys",
         stack: [
           "html",
