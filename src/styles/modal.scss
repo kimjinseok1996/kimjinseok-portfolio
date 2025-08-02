@@ -10,11 +10,13 @@
 
   img {
     width: 100%;
+    max-width: 678px;
     border: 1px solid #ccc;
   }
 
   table {
     width: 100%;
+    max-width: 678px;
     border: 1px solid #eaeaea;
     border-collapse: collapse;
     margin-top: 24px;
@@ -27,6 +29,9 @@
     th {
       width: 72px;
       text-align: center;
+      @media (max-width: 768px) {
+        width: 38px;
+      }
     }
 
     .stack-icon {
