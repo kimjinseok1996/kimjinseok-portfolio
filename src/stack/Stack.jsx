@@ -19,15 +19,15 @@ const boxStyle = {
 };
 
 const stackArr = [
-  { Language: ["javascript"] },
+  { Language: ["javascript", "typescript"] },
   {
     Framework: ["react", "vue", "nodejs"],
   },
   {
-    Library: ["zustand", "reactquery", "jquery", "axios"],
+    Library: ["next", "zustand", "reactquery", "jquery", "axios"],
   },
   {
-    MarkUp: ["html", "css", "sass", "bootstrap"],
+    MarkUp: ["html", "css", "sass", "bootstrap", "tailwind"],
   },
   {
     Build: ["vite", "webpack"],
@@ -36,15 +36,7 @@ const stackArr = [
     Tools: ["npm", "nvm", "git", "jira", "slack", "photoshop", "figma"],
   },
   {
-    Secondary: [
-      "next",
-      "typescript",
-      "tailwind",
-      "mysql",
-      "nginx",
-      "gcp",
-      "docker",
-    ],
+    Secondary: ["mysql", "nginx", "gcp", "docker"],
   },
 ];
 
