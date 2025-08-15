@@ -25,6 +25,7 @@
       text-align: left;
       border: 1px solid #eaeaea;
       padding: 14px 16px;
+      box-sizing: content-box;
     }
     th {
       width: 72px;
@@ -43,7 +44,8 @@
       line-height: 24px;
 
       ul {
-        list-style-position: inside;
+        list-style-position: outside;
+        padding-left: 12px;
         li {
           text-align: left;
         }

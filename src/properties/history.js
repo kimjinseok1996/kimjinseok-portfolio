@@ -141,7 +141,7 @@ export const historyData = [
       {
         title: "씨엠엔피 홈페이지",
         description: "회사 소개 페이지",
-        period: "2023.05 ~",
+        period: "2023.05 ~ 현재",
         text: `<ul>
                 <li>회사 소개 페이지 레이아웃 설계, 퍼블리싱 작업</li>
                 <li>Scroll 메소드와 CSS 에니메이션으로 인터렉티브한 동작 구현</li>
@@ -164,7 +164,7 @@ export const historyData = [
       {
         title: "기사용 앱",
         description: "대리 기사 프로그램 일부 웹뷰 페이지",
-        period: "2023.05 ~",
+        period: "2023.05 ~ 현재",
         text: `<ul>
                 <li>Vuex로 전역 상태관리, Mixin을 활용해 공통 함수 모듈화 및 코드 중복 최소화</li>
                 <li>Android에서 전달받은 JWT 인증 데이터 관리로 보안 처리 강화</li>
@@ -183,7 +183,7 @@ export const historyData = [
       {
         title: "고객용 앱",
         description: "대리 프로그램 기사 호출 / 배차 / 이동 화면 웹뷰 페이지",
-        period: "2023.05 ~",
+        period: "2023.05 ~ 현재",
         text: `<ul>
                 <li>DK테크인 코드 리소스 인수인계</li>
                 <li>실시간 기사위치 정보를 위한 Data Polling 처리</li>
@@ -200,7 +200,7 @@ export const historyData = [
       {
         title: "케어플러스",
         description: "대리 기사 프로그램 멤버쉽 가입 웹뷰 페이지",
-        period: "2023.06 ~",
+        period: "2023.06 ~ 현재",
         text: `<ul>
                 <li>KM과 Figma로 협업하여 렌딩페이지 작업</li>
                 <li>Vuex로 전역 상태관리, Mixin을 활용해 공통 함수 모듈화 및 코드 중복 최소화</li>
@@ -218,7 +218,7 @@ export const historyData = [
       {
         title: "상담원 메인 게시판",
         description: "업체 상담원과 회사 직원들이 소통할수있는 창구",
-        period: "2023.09 ~",
+        period: "2023.09 ~ 현재",
         text: `<ul>
                 <li>공지사항 / 업무게시판 등</li>
                 <li>Node.js Express모듈 사용, Helmet, Cors, Crypto.js모듈로 보안 강화, Winston 모듈로 에러 로거</li>
@@ -241,7 +241,7 @@ export const historyData = [
       {
         title: "상담원 프로그램",
         description: "상담원 프로그램 일부 웹페이지",
-        period: "2023.10 ~",
+        period: "2023.10 ~ 현재",
         text: `<ul>
                 <li>상담원 메인 화면 / 탁송 사진 뷰어 / 계정 인증 관리(아이디&비밀번호 찾기, 초기화 등) / 퇴직기사 리스트 등</li>
                 <li>Awesome-Image-Viewer 사용, 기사 탁송완료 사진 슬라이드 뷰</li>
@@ -254,7 +254,7 @@ export const historyData = [
       {
         title: "관리자 앱",
         description: "관리자용 웹뷰 페이지",
-        period: "2024.10 ~",
+        period: "2024.10 ~ 현재",
         text: `<ul>
                 <li>대리 콜 접수, 실시간 콜을 볼수있는 화면 제공, 통계화면, 캐시출금 등</li>
                 <li>Framer-motion으로 에니메이션 적용하여 사용자 UI/UX 개선</li>
@@ -282,7 +282,7 @@ export const historyData = [
       {
         title: "기사용 앱 회원가입",
         description: "대리 프로그램 온라인 기사 회원가입 절차 웹뷰 페이지",
-        period: "2024.11 ~",
+        period: "2024.11 ~ 현재",
         text: `<ul>
                 <li>Framer-motion으로 에니메이션 적용하여 사용자 UI/UX 개선</li>
                 <li>React Query로 업체목록 등 서버데이터 상태관리</li>
