@@ -68,7 +68,8 @@ button {
     }
 
     .tool-tip {
-      overflow-y: hidden;
+      overflow: hidden;
+      z-index: 9999;
     }
   }
 }
