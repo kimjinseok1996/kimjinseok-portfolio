@@ -136,7 +136,7 @@ export const historyData = [
   },
   {
     date: "2023. 05.",
-    company: "씨엠엔피(카카오모빌리티 자회사)",
+    company: "씨엠엔피",
     projects: [
       {
         title: "씨엠엔피 홈페이지",
@@ -199,7 +199,7 @@ export const historyData = [
       },
       {
         title: "케어플러스",
-        description: "대리 기사 프로그램 멤버쉽 가입 웹뷰 페이지",
+        description: "대리 기사 프로그램 멤버십 가입 웹뷰 페이지",
         period: "2023.06 ~ 현재",
         text: `<ul>
                 <li>KM과 Figma로 협업하여 렌딩페이지 작업</li>
@@ -293,6 +293,34 @@ export const historyData = [
                 <li>Vite로 빌드 최적화(Vite-Plugin-Compression 등) 설정</li>
                 <li>Android 브릿지함수로 앱와 통신</li>
                 <li>SIMG와 보험가입관련 협업(보험 데이터를 SIMG측 페이지로 전달, 보험 가입완료 응답값으로 화면처리)</li>
+                <li>Visualizer로 번들 최적화 모니터링, Profiler로 리렌더링 최적화 확인</li>
+              </ul>`,
+        contribution: 100,
+        img: "",
+        stack: [
+          "react",
+          "zustand",
+          "axios",
+          "reactquery",
+          "sass",
+          "vite",
+          "figma",
+        ],
+      },
+      {
+        title: "케어플러스 리뉴얼",
+        description: "대리 기사 프로그램 멤버십 가입 웹뷰 페이지",
+        period: "2025.10 ~ 현재",
+        text: `<ul>
+                <li>기획자/웹디자이너와 Figma로 협업하여 렌딩페이지/상세페이지 작업</li>
+                <li>FSD패턴 적용으로 컴포넌트의 가독성 및 유지보수성 향상</li>
+                <li>Framer-motion으로 에니메이션 적용하여 사용자 UI/UX 개선</li>
+                <li>React Tanstack Query로 멤버십 정보 등 서버데이터 상태관리</li>
+                <li>Zustand로 모달, 약관 체크박스 등 프론트데이터 상태관리</li>
+                <li>Custom-Hook 으로 공용 훅 생성하여 코드중복 해소 (모달, 팝업, 바텀시트 등)</li>
+                <li>dotenv로 환경 변수 관리 및 배포 환경 대응</li>
+                <li>Vite로 빌드 최적화(Vite-Plugin-Compression 등) 설정</li>
+                <li>Android 브릿지함수로 앱와 통신</li>
                 <li>Visualizer로 번들 최적화 모니터링, Profiler로 리렌더링 최적화 확인</li>
               </ul>`,
         contribution: 100,
